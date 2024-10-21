@@ -1,1 +1,4 @@
-console.log("webpack ready");
+import { displayHome } from "./home.js";
+import "./style.css";
+
+displayHome();
