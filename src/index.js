@@ -1,7 +1,6 @@
 import { displayHome } from "./home.js";
 import { displayMenu } from "./menu.js";
 import { displayContact } from "./contact.js";
-import "./menu.js";
 import "./style.css";
 
 // Initial page load
