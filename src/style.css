@@ -104,7 +104,26 @@ button {
   color: rgb(37, 37, 37);
 }
 
+.content a + p {
+  line-height: 0;
+}
+
 .content p {
   font-size: 0.88rem;
-  line-height: 0;
+}
+
+.contact-section {
+  font-size: 1.25rem;
+}
+
+.contact-section p {
+  font-size: 1.05rem;
+}
+
+.contact-info h3 {
+  margin-top: 0.75rem;
+}
+
+.contact-info h3:first-child {
+  margin: 0;
 }

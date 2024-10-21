@@ -1,5 +1,6 @@
 import { displayHome } from "./home.js";
 import { displayMenu } from "./menu.js";
+import { displayContact } from "./contact.js";
 import "./menu.js";
 import "./style.css";
 
@@ -17,6 +18,9 @@ document.querySelector("nav").addEventListener("click", (e) => {
       break;
     case "menu":
       displayMenu();
+      break;
+    case "contact":
+      displayContact();
       break;
   }
 });
